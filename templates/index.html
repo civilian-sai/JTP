@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Recommendation</title>
+</head>
+<body>
+    <h1>Recipe Recommendation</h1>
+    <form action="/recommendation" method="post">
+        <label for="calories">Calories:</label>
+        <input type="text" id="calories" name="calories" required><br><br>
+        
+        <label for="fat">Fat:</label>
+        <input type="text" id="fat" name="fat" required><br><br>
+        
+        <label for="saturated_fat">Saturated Fat:</label>
+        <input type="text" id="saturated_fat" name="saturated_fat" required><br><br>
+        
+        <label for="cholesterol">Cholesterol:</label>
+        <input type="text" id="cholesterol" name="cholesterol" required><br><br>
+        
+        <label for="sodium">Sodium:</label>
+        <input type="text" id="sodium" name="sodium" required><br><br>
+        
+        <label for="carbohydrate">Carbohydrate:</label>
+        <input type="text" id="carbohydrate" name="carbohydrate" required><br><br>
+        
+        <label for="fiber">Fiber:</label>
+        <input type="text" id="fiber" name="fiber" required><br><br>
+        
+        <label for="sugar">Sugar:</label>
+        <input type="text" id="sugar" name="sugar" required><br><br>
+        
+        <label for="protein">Protein:</label>
+        <input type="text" id="protein" name="protein" required><br><br>
+        
+        <label for="ingredient_filter">Ingredient Filter (comma-separated):</label>
+        <input type="text" id="ingredient_filter" name="ingredient_filter"><br><br>
+        
+        <input type="submit" value="Get Recommendation">
+    </form>
+</body>
+</html>
